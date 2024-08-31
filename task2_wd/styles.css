@@ -1,0 +1,73 @@
+/* General Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffccbc; /* Warm orange background for the entire page */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Stopwatch Container */
+.stopwatch {
+    text-align: center;
+    background: #ffffff; /* White background for the stopwatch container */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Stopwatch Display */
+.display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333333; /* Dark grey for text to ensure readability */
+}
+
+/* Control Buttons */
+.controls button {
+    font-size: 1.1em;
+    padding: 12px 24px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff; /* White text for contrast */
+    background-color: #ff5722; /* Warm orange color */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.controls button:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.controls button:active {
+    background-color: #d84315; /* Even darker orange when pressed */
+}
+
+/* Laps Section */
+.laps {
+    margin-top: 20px;
+}
+
+.laps h2 {
+    font-size: 1.5em;
+    color: #ff5722; /* Warm orange color for lap section heading */
+    margin-bottom: 10px;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.laps ul li {
+    font-size: 1.1em;
+    padding: 8px;
+    border-bottom: 1px solid #dee2e6; /* Light border for lap items */
+    color: #333333; /* Dark grey text for lap times */
+}
+
